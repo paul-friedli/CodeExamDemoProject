@@ -12,13 +12,13 @@ public class Application {
 
         System.out.println("Hello, World!");
 
-        System.out.print("Génération du tableau en cours...");
+        System.out.println("Génération du tableau en cours...");
         int[] nombres = new int[TAILLE];
         for (int i = 0; i < nombres.length; i++) {
             nombres[i] = genererNombreAleatoire(MIN, MAX);
         }
 
-        System.out.print(" : OK !");
+        System.out.println("Génération du tableau terminé !");
         System.out.println();
         System.out.println("Voici la liste des languages de programmation cool :");
         for (int i = 0; i < LANGUAGES.length; i++) {
